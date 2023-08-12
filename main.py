@@ -122,7 +122,7 @@ class FileTransferGUI:
         instructions_text_widget.pack()
 
     def show_about(self):
-        about_text = "Decky Transfer\nVersion 1.0\n\nCreated by Your Name"
+        about_text = "Decky Transfer\nVersion 1.0\n\nCreated by Ausama95\n\nGitHub Profile: https://github.com/Ausama95"
         tk.messagebox.showinfo("About", about_text)
 
 if __name__ == "__main__":
