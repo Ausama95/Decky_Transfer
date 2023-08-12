@@ -1,3 +1,1 @@
- # Create a frame to hold all the elements
-        self.main_frame = tk.Frame(root)
-        self.main_frame.pack(pady=20)
+self.local_file_button = tk.Button(self.main_frame, text="Select File", command=self.browse_local_file)

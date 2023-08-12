@@ -59,6 +59,11 @@ class FileTransferGUI:
         self.error_label = tk.Label(self.main_frame, text="", fg="red")
         self.error_label.pack()
 
+    def select_folder(self):
+        folder_path = filedialog.askdirectory()
+        if folder_path:
+            print("Selected folder:", folder_path)
+
     def browse_local_file(self):
         file_path = filedialog.askopenfilename()
         if file_path:
